@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Caleb Hoke | IT & Technology Portfolio</title>
+
+    <meta name="description" content="Professional portfolio showcasing my experience in networking, IT infrastructure, cybersecurity, and software development.">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header>
+        <nav class="navbar">
+
+            <a href="#" class="logo">CALEB HOKE<span></span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    
+<!-- HERO SECTION -->
+<main>
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-label">
+                IT PROFESSIONAL & DEVELOPER
+            </p>
+
+            <h1>
+                Building, maintaining & engineering
+                <span>technology.</span>
+            </h1>
+
+            <h2>
+                Networking | Infrastructure | Development | Security
+            </h2>
+
+            <p class="hero-description">
+                Experienced IT professional with a background
+                in networking, technical operations,
+                infrastructure, and software development.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn btn-primary">
+                    View My Work
+                </a>
+
+                <a href="#resume" class="btn btn-secondary">
+                    My Resume
+                </a>
+
+            </div>
+
+            <!-- SOCIAL LINKS -->
+            <div class="hero-socials">
+
+                <a href="https://github.com/CjHoke"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="GitHub">
+
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill="currentColor"
+                        d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.08c-3.1.67-3.75-1.32-3.75-1.32-.5-1.28-1.24-1.62-1.24-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.7 1.15 1.7 1.15.99 1.69 2.6 1.2 3.23.92.1-.72.39-1.2.7-1.48-2.47-.28-5.07-1.24-5.07-5.5 0-1.22.44-2.21 1.15-2.99-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.44 3.05-1.14 3.05-1.14.61 1.53.23 2.67.11 2.95.72.78 1.15 1.77 1.15 2.99 0 4.27-2.6 5.21-5.08 5.49.4.35.75 1.02.75 2.06V22c0 .29.2.63.77.52A11.1 11.1 0 0 0 12 .9Z"/>
+                    </svg>
+
+                </a>
+
+                <a href="https://www.linkedin.com/in/caleb-hoke-28995b138/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill="currentColor"
+                        d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.9H4.97V9.37h2.96v9.53ZM6.45 8.07a1.72 1.72 0 1 1 0-3.44 1.72 1.72 0 0 1 0 3.44Zm12.46 10.83h-2.95v-4.64c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46v4.72H9.67V9.37h2.83v1.3h.04c.39-.75 1.36-1.55 2.8-1.55 3 0 3.57 1.97 3.57 4.54v5.24Z"/>
+                    </svg>
+
+                </a>
+
+                <a href="mailto:Caleb.hoke@hotmail.com"
+                   aria-label="Email">
+
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill="currentColor"
+                        d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/>
+                    </svg>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- PROFILE PHOTO -->
+<div class="hero-image">
+
+    <button class="profile-photo-button"
+            type="button"
+            onclick="openProfilePhoto()"
+            aria-label="Enlarge profile photo">
+
+        <img src="images/caleb-headshot.jpeg"
+             alt="Professional headshot of Caleb Hoke">
+
+    </button>
+
+</div>
+
+<!-- ENLARGED PHOTO OVERLAY -->
+<div id="photo-modal"
+     class="photo-modal"
+     onclick="closeProfilePhoto()">
+
+    <button class="photo-close"
+            type="button"
+            onclick="closeProfilePhoto()"
+            aria-label="Close enlarged photo">
+        &times;
+    </button>
+
+    <img src="images/caleb-headshot.jpeg"
+         alt="Enlarged professional headshot"
+         onclick="event.stopPropagation()">
+
+</div>
+
+    </section>
+</main>
+
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about-section">
+
+    <div class="section-heading">
+        <p class="section-label">GET TO KNOW ME</p>
+        <h2>About Me</h2>
+    </div>
+
+    <div class="about-content">
+
+        <div class="about-text">
+            <h3>Engineering solutions through technology and problem-solving.</h3>
+
+            <p>
+                I'm an IT professional with over eight years of
+                experience supporting complex technical environments,
+                specializing in networking, infrastructure, and
+                connected medical device systems.
+            </p>
+
+            <p>
+                During my time at TriMedx, I progressed from
+                Connected Device Onboarding Specialist I to
+                Specialist II, working with medical device network
+                environments, technical data validation, network
+                vulnerability assessments, and security testing.
+                My work required collaboration across clinical
+                engineering, IT departments, and equipment
+                manufacturers.
+            </p>
+
+            <p>
+                Alongside my professional experience, I have
+                continued developing my programming and software
+                engineering skills, particularly in Java, while
+                expanding my knowledge of infrastructure,
+                cybersecurity, and emerging technologies.
+            </p>
+
+            <p>
+                I enjoy understanding how systems work, solving
+                complex technical problems, and building practical
+                solutions that make technology more reliable,
+                efficient, and secure.
+            </p>
+        </div>
+
+        <div class="about-details">
+
+            <div class="detail-card">
+                <h3>8+</h3>
+                <p>Years of IT & Networking Experience</p>
+            </div>
+
+            <div class="detail-card">
+                <h3>Specialist II</h3>
+                <p>Connected Device Onboarding</p>
+            </div>
+
+            <div class="detail-card">
+                <h3>Java</h3>
+                <p>Software Development & Programming</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- TECHNICAL SKILLS SECTION -->
+<section id="skills" class="skills-section">
+
+    <div class="section-heading">
+        <p class="section-label">WHAT I BRING TO THE TABLE</p>
+        <h2>Technical Skills</h2>
+    </div>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <h3>Networking & Connectivity</h3>
+            <ul>
+                <li>TCP/IP Networking</li>
+                <li>DNS & DHCP</li>
+                <li>Network Troubleshooting</li>
+                <li>Connectivity Diagnostics</li>
+                <li>Network Infrastructure</li>
+            </ul>
+        </div>
+
+        <div class="skill-card">
+            <h3>Systems & Infrastructure</h3>
+            <ul>
+                <li>Windows Environments</li>
+                <li>Linux Environments</li>
+                <li>Hardware Troubleshooting</li>
+                <li>Infrastructure Support</li>
+                <li>Technical Operations</li>
+            </ul>
+        </div>
+
+        <div class="skill-card">
+            <h3>Software Development</h3>
+            <ul>
+                <li>Java Programming</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Application Development</li>
+            </ul>
+        </div>
+
+        <div class="skill-card">
+            <h3>Cybersecurity & Data</h3>
+            <ul>
+                <li>Network Vulnerability Assessments</li>
+                <li>Security Testing</li>
+                <li>Network Security</li>
+                <li>Technical Data Validation</li>
+                <li>Technical Documentation</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="projects-section">
+
+    <div class="section-heading">
+        <p class="section-label">SELECTED WORK & EXPERIENCE</p>
+        <h2>Featured Projects</h2>
+
+        <p class="projects-intro">
+            A collection of development projects, technical
+            case studies, and hands-on experience across
+            networking, infrastructure, and security.
+        </p>
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+
+            <div class="project-icon">
+                <span>&lt;/&gt;</span>
+            </div>
+
+            <h3>Personal Portfolio Website</h3>
+
+            <p>
+                Designing and developing a responsive personal
+                portfolio to showcase technical experience,
+                development skills, and professional projects.
+                Built from the ground up with a focus on
+                clean design and maintainable code.
+            </p>
+
+            <div class="project-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Git</span>
+            </div>
+
+            <span class="project-status">In Development</span>
+
+        </div>
+
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+
+            <div class="project-icon">
+                <span>J</span>
+            </div>
+
+            <h3>Java Development</h3>
+
+            <p>
+                Programming and software development focused
+                on application logic, object-oriented
+                programming, problem-solving, and building
+                practical software solutions.
+            </p>
+
+            <div class="project-tags">
+                <span>Java</span>
+                <span>OOP</span>
+                <span>Software Development</span>
+            </div>
+
+            <span class="project-status">Development Showcase</span>
+
+        </div>
+
+
+        <!-- PROJECT 3 -->
+        <div class="project-card">
+
+            <div class="project-icon">
+                <span>NET</span>
+            </div>
+
+            <h3>Medical Device Networking</h3>
+
+            <p>
+                Professional experience supporting connected
+                medical device environments, network onboarding,
+                connectivity troubleshooting, and technical
+                coordination between clinical engineering,
+                IT departments, and equipment manufacturers.
+            </p>
+
+            <div class="project-tags">
+                <span>Networking</span>
+                <span>Medical Technology</span>
+                <span>Infrastructure</span>
+            </div>
+
+            <span class="project-status">Professional Case Study</span>
+
+        </div>
+
+
+        <!-- PROJECT 4 -->
+        <div class="project-card">
+
+            <div class="project-icon">
+                <span>SEC</span>
+            </div>
+
+            <h3>Network Security & Assessment</h3>
+
+            <p>
+                Professional experience involving network
+                vulnerability assessments, security testing,
+                technical analysis, and identifying potential
+                security concerns within connected technology
+                environments.
+            </p>
+
+            <div class="project-tags">
+                <span>Cybersecurity</span>
+                <span>Vulnerability Assessment</span>
+                <span>Network Security</span>
+            </div>
+
+            <span class="project-status">Professional Case Study</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- RESUME SECTION -->
+<section id="resume" class="resume-section">
+
+    <div class="section-heading">
+        <p class="section-label">MY CAREER</p>
+        <h2>Professional Experience</h2>
+    </div>
+
+
+    <div class="career-timeline">
+
+        <!-- POSITION 1 -->
+        <article class="career-card">
+
+            <div class="career-header">
+                <div>
+                    <h3>Connected Device Onboarding Specialist II</h3>
+                    <p class="company-name">TriMedx LLC</p>
+                </div>
+
+                <span class="career-date">
+                    Aug 2021 – Aug 2026
+                </span>
+            </div>
+
+            <ul>
+                <li>
+                    Collaborated with Clinical Engineering,
+                    Information Technology, and original
+                    equipment manufacturers to support
+                    data collection efforts.
+                </li>
+
+                <li>
+                    Led subsets of the team and supported
+                    cross-functional device implementation.
+                </li>
+
+                <li>
+                    Used technical audit data to help ensure
+                    inventory accuracy.
+                </li>
+
+                <li>
+                    Conducted medical equipment network
+                    vulnerability assessments and
+                    Red Team / Blue Team penetration testing.
+                </li>
+
+                <li>
+                    Managed customer relationships with
+                    hospitals throughout the country.
+                </li>
+
+                <li>
+                    Configured medical networks for Philips
+                    and GE patient monitoring systems.
+                </li>
+
+                <li>
+                    Worked with imaging and PDM
+                    equipment modalities.
+                </li>
+            </ul>
+
+        </article>
+
+
+        <!-- POSITION 2 -->
+        <article class="career-card">
+
+            <div class="career-header">
+                <div>
+                    <h3>Connected Device Onboarding Specialist I</h3>
+                    <p class="company-name">TriMedx LLC</p>
+                </div>
+
+                <span class="career-date">
+                    May 2019 – Aug 2024
+                </span>
+            </div>
+
+            <ul>
+                <li>
+                    Served as a liaison between new hires
+                    and departments, supporting communication
+                    and team integration.
+                </li>
+
+                <li>
+                    Provided ongoing support to new hires
+                    after initial onboarding.
+                </li>
+
+                <li>
+                    Created reports and documentation
+                    demonstrating completeness and accuracy
+                    of data collection efforts.
+                </li>
+
+                <li>
+                    Gained exposure to healthcare technology
+                    management environments and imaging
+                    modalities.
+                </li>
+            </ul>
+
+        </article>
+
+
+        <!-- POSITION 3 -->
+        <article class="career-card">
+
+            <div class="career-header">
+                <div>
+                    <h3>Tech Plus One</h3>
+                    <p class="company-name">TriMedx LLC</p>
+                </div>
+
+                <span class="career-date">
+                    May 2018 – May 2019
+                </span>
+            </div>
+
+            <ul>
+                <li>
+                    Performed preventive maintenance on
+                    medical equipment to support functionality
+                    and safety compliance.
+                </li>
+
+                <li>
+                    Diagnosed and repaired malfunctioning
+                    medical devices.
+                </li>
+
+                <li>
+                    Calibrated and tested medical equipment
+                    for accurate and reliable performance.
+                </li>
+
+                <li>
+                    Maintained maintenance, repair,
+                    calibration, work-order, and service records.
+                </li>
+
+                <li>
+                    Provided technical support and
+                    equipment-use training to healthcare staff.
+                </li>
+
+                <li>
+                    Assisted with equipment inventory,
+                    asset tracking, and parts ordering.
+                </li>
+
+                <li>
+                    Collaborated with biomedical technicians,
+                    clinical staff, and management.
+                </li>
+            </ul>
+
+        </article>
+
+    </div>
+
+
+    <!-- EDUCATION -->
+    <div class="education-section">
+
+        <div class="section-heading">
+            <p class="section-label">ACADEMIC BACKGROUND</p>
+            <h2>Education</h2>
+        </div>
+
+        <div class="education-card">
+
+            <h3>Vincennes University</h3>
+
+            <p>
+                Associate in Science (A.S.),
+                Biomedical Engineering
+            </p>
+
+            <span>May 2018</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact" class="section contact-section">
+    <h2>Get In Touch</h2>
+    <p>
+        I'm always interested in discussing opportunities in
+        cybersecurity, network engineering, cloud engineering,
+        and software development.
+    </p>
+
+    <a href="mailto:Caleb.hoke@hotmail.com" class="contact-button">
+        Email Me
+    </a>
+</section>
+
+
+    </main>
+
+<footer class="site-footer">
+    <p>&copy; 2026 Caleb Hoke. All rights reserved.</p>
+    <p>Built with HTML, CSS, and JavaScript.</p>
+</footer>
+
+<script>
+function openProfilePhoto() {
+    document.getElementById("photo-modal")
+        .classList.add("active");
+}
+
+function closeProfilePhoto() {
+    document.getElementById("photo-modal")
+        .classList.remove("active");
+}
+
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Escape") {
+        closeProfilePhoto();
+    }
+});
+</script>
+
+</body>
+
+</html>
