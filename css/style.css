@@ -704,6 +704,7 @@ header {
 /* PROJECTS MOBILE RESPONSIVENESS */
 @media (max-width: 768px) {
 
+    
     .projects-section {
         padding: 60px 20px;
         box-sizing: border-box;
@@ -768,9 +769,10 @@ header {
     }
 
 .hero-image {
-    flex: none;
-    width: 220px;
-    height: 220px;
     margin: 0 auto;
+    transform: none;
+    flex: 0 0 250px;
+    width: 250px;
+    height: 250px;
 }
 }
