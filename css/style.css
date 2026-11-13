@@ -701,43 +701,18 @@ header {
     color: #aab7c5;
     font-size: 14px;
 }
-/* PROJECTS MOBILE RESPONSIVENESS */
+
+/* MOBILE RESPONSIVENESS */
 @media (max-width: 768px) {
 
-    
-    .projects-section {
-        padding: 60px 20px;
-        box-sizing: border-box;
-    }
-
-    .projects-grid {
-        grid-template-columns: 1fr;
-        width: 100%;
-        max-width: 500px;
-        margin: 0 auto;
-        gap: 18px;
-    }
-
-    .project-card {
-        width: 100%;
-        box-sizing: border-box;
-        padding: 25px;
-    }
-
-    .projects-intro {
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-/* MOBILE HERO */
-
-@media (max-width: 768px) {
+    /* MOBILE HERO */
 
     .hero {
         flex-direction: column-reverse;
         text-align: center;
         padding: 65px 20px;
         gap: 35px;
+        box-sizing: border-box;
     }
 
     .hero-content {
@@ -768,11 +743,109 @@ header {
         justify-content: center;
     }
 
-.hero-image {
-    margin: 0 auto;
-    transform: none;
-    flex: 0 0 250px;
-    width: 250px;
-    height: 250px;
-}
+    .hero-image {
+        margin: 0 auto;
+        transform: none;
+        flex: 0 0 250px;
+        width: 250px;
+        height: 250px;
+    }
+
+
+    /* MOBILE ABOUT */
+
+    .about-section {
+        width: 100%;
+        padding: 60px 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        gap: 30px;
+    }
+
+    .about-text,
+    .about-details {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .about-details {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 15px;
+    }
+
+    .detail-card {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+
+    /* MOBILE TECHNICAL SKILLS */
+
+    .skills-section {
+        width: 100%;
+        padding: 60px 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .skills-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        gap: 18px;
+        box-sizing: border-box;
+    }
+
+    .skill-card {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .skill-card ul {
+        padding-left: 20px;
+        overflow-wrap: break-word;
+    }
+
+    /* MOBILE PROJECTS */
+
+    .projects-section {
+        padding: 60px 20px;
+        box-sizing: border-box;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        gap: 18px;
+    }
+
+    .project-card {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 25px;
+    }
+
+    .projects-intro {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
